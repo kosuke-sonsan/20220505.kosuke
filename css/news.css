@@ -22,6 +22,11 @@ li {
   padding: 2%;
 }
 
+.logo:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .nav {
   margin-top: 0%;
 }
@@ -44,12 +49,22 @@ li {
   text-decoration: none;
 }
 
+.header-nav__item1:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .header-nav__item2 {
   box-sizing: border-box;
   margin-right: 3%;
   margin-top: -6%;
   font-size: 30%;
   text-decoration: none;
+}
+
+.header-nav__item2:hover {
+  color: white;
+  opacity: 0.5;
 }
 
 .header-nav__item3 {
@@ -60,12 +75,22 @@ li {
   text-decoration: none;
 }
 
+.header-nav__item3:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .header-nav__item4 {
   box-sizing: border-box;
   margin-right: 3%;
   margin-top: -6%;
   font-size: 30%;
   text-decoration: none;
+}
+
+.header-nav__item4:hover {
+  color: white;
+  opacity: 0.5;
 }
 
 .header-nav__item5 {
@@ -76,6 +101,11 @@ li {
   text-decoration: none;
 }
 
+.header-nav__item5:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .header-nav__item6 {
   box-sizing: border-box;
   margin-right: 3%;
@@ -84,12 +114,22 @@ li {
   text-decoration: none;
 }
 
+.header-nav__item6:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .header-nav__item7 {
   box-sizing: border-box;
   margin-right: 1%;
   margin-top: -6%;
   font-size: 30%;
   text-decoration: none;
+}
+
+.header-nav__item7:hover {
+  color: white;
+  opacity: 0.5;
 }
 
 .group {
@@ -206,6 +246,7 @@ li {
   background-color: black;
   color: white;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .footer-inner {
@@ -218,51 +259,154 @@ li {
   padding: 2%;
 }
 
+.footer-nav {
+  position: relative;
+}
+
 .footer-nav-list {
   display: flex;
   width: 100%;
-  font-size: 0.8em;
 }
 
 .footer-nav-item1 {
-  width: 30%;
-  padding: 1%;
-  margin-top: 5%;
+  width: 70px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item1:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-nav-item1::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 33%;
+  background-color: white;
+  position: absolute;
+  top: 39%;
+  left: 11%;
 }
 
 .footer-nav-item2 {
-  width: 30%;
-  padding: 3%;
-  margin-top: 5%;
+  width: 90px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item2:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-nav-item2::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 18px;
+  background-color: white;
+  position: absolute;
+  top: 39%;
+  left: 24%;
 }
 
 .footer-nav-item3 {
-  width: 30%;
-  padding: 3%;
-  margin-top: 5%;
+  width: 80px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item3:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-nav-item3::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 18px;
+  background-color: white;
+  position: absolute;
+  top: 39%;
+  left: 37%;
 }
 
 .footer-nav-item4 {
-  width: 30%;
-  padding: 3%;
-  margin-top: 5%;
+  width: 110px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item4:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-nav-item4::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 18px;
+  background-color: white;
+  position: absolute;
+  top: 39%;
+  left: 53%;
 }
 
 .footer-nav-item5 {
-  width: 30%;
-  padding: 3%;
-  margin-top: 5%;
-  margin-right: 5%;
+  width: 90px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item5:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-nav-item5::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 18px;
+  background-color: white;
+  position: absolute;
+  top: 39%;
+  left: 67%;
 }
 
 .footer-nav-item6 {
-  width: 30%;
-  padding: 3%;
-  margin-top: 5%;
+  width: 90px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item6:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-nav-item6::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 18px;
+  background-color: white;
+  position: absolute;
+  top: 39%;
+  left: 81%;
 }
 
 .footer-nav-item7 {
-  width: 30%;
-  padding: 3%;
-  margin-top: 5%;
+  width: 130px;
+  padding-top: 4%;
+  padding-left: 0.5%;
+}
+
+.footer-nav-item7:hover {
+  color: white;
+  opacity: 0.5;
 }
