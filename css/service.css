@@ -12,11 +12,9 @@ header {
   left: 0;
 }
 
-li {
+a {
   text-decoration: none;
-
 }
-
 .logo {
   width: 5%;
   padding: 2%;
@@ -281,6 +279,11 @@ li {
   color: white;
   font-size: 1em;
   font-weight: bold;
+}
+
+.contact_btn:hover {
+  color: white;
+  opacity: 0.5;
 }
 
 .footer {

@@ -13,9 +13,8 @@ header {
   left: 0;
 }
 
-li {
+a {
   text-decoration: none;
-
 }
 
 .logo {
@@ -505,6 +504,7 @@ li {
   width: 70px;
   padding-top: 4%;
   padding-left: 0.5%;
+  color: white;
 }
 
 .footer-nav-item1:hover {

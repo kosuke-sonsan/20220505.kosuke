@@ -217,6 +217,11 @@ li {
   font-weight: bold;
 }
 
+.contact_btn:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .footer {
   width: 100%;
   background-color: black;

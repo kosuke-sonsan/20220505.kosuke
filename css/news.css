@@ -12,9 +12,8 @@ header {
   left: 0;
 }
 
-li {
+a {
   text-decoration: none;
-
 }
 
 .logo {
@@ -181,6 +180,11 @@ li {
   line-height: 400%;
 }
 
+.news_1:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .news_2 {
   box-sizing: border-box;
   display: block;
@@ -193,6 +197,11 @@ li {
   line-height: 400%;
 }
 
+.news_2:hover {
+  color: white;
+  opacity: 0.5;
+}
+
 .news_3 {
   box-sizing: border-box;
   display: block;
@@ -203,6 +212,11 @@ li {
   text-align: left;
   padding-left: 1%;
   line-height: 400%;
+}
+
+.news_3:hover {
+  color: white;
+  opacity: 0.5;
 }
 
 .group_6 {
@@ -239,6 +253,11 @@ li {
   color: white;
   font-size: 1em;
   font-weight: bold;
+}
+
+.contact_btn:hover {
+  color: white;
+  opacity: 0.5;
 }
 
 .footer {
