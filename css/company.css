@@ -30,10 +30,12 @@ a {
   position: fixed;
   left: 95%;
   top: 2%;
+
 }
 
 .menu_position {
   position: relative;
+  z-index: 30;
 }
 
 .menu__line--top,
@@ -84,6 +86,7 @@ a {
   text-align: center;
   font-size: 1.5em;
   line-height: 350%;
+  z-index: -1;
 }
 
 .in {
@@ -284,6 +287,7 @@ a {
 
 .position1 {
   position: relative;
+  z-index: -4;
 }
 
 .position1::before {
@@ -312,6 +316,7 @@ a {
 
 .position2 {
   position: relative;
+  z-index: -4;
 }
 
 .position2::before {
@@ -341,6 +346,7 @@ a {
 
 .position3 {
   position: relative;
+  z-index: -4;
 }
 
 .position3::before {
@@ -370,6 +376,7 @@ a {
 
 .position4 {
   position: relative;
+  z-index: -4;
 }
 
 .position4::before {
@@ -400,6 +407,7 @@ a {
 
 .position5 {
   position: relative;
+  z-index: -4;
 }
 
 .position5::before {
@@ -429,6 +437,7 @@ a {
 
 .position6 {
   position: relative;
+  z-index: -4;
 }
 
 .position6::before {

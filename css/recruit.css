@@ -34,6 +34,7 @@ a {
 
 .menu_position {
   position: relative;
+  z-index: 30;
 }
 
 .menu__line--top,
@@ -84,6 +85,7 @@ a {
   text-align: center;
   font-size: 1.5em;
   line-height: 350%;
+  z-index: -1;
 }
 
 .in {
@@ -287,6 +289,7 @@ a {
 
 .border1 {
   position: relative;
+  z-index: -3;
 }
 
 .border1::after {
@@ -301,6 +304,7 @@ a {
 
 .border2 {
   position: relative;
+  z-index: -3;
 }
 
 .border2::after {
