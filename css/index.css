@@ -342,6 +342,61 @@ a {
   width: 100%;
 }
 
+.group_3_sub {
+  width: 100%;
+}
+
+.box_sub {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 1%;
+}
+
+.font_sub {
+  font-size: 140%;
+}
+
+.subfont_sub {
+  padding-top: 2%;
+  font-size: 100%;
+}
+
+.img_sub {
+  width: 100%;
+}
+
+@media screen and(min-width: 400px) and(max-width: 768px) {
+  .group_3,
+  .box,
+  .img,
+  .font,
+  .subfont {}
+  .group_3_sub,
+  .box_sub,
+  .img_sub,
+  .font_sub,
+  .subfont_sub {
+    display: none;
+  }
+}
+
+@media screen and(min-width: 768px) {
+  .group_3,
+  .box,
+  .img,
+  .font,
+  .subfont{
+    display: none;
+  }
+  .group_3_sub,
+  .box_sub,
+  .img_sub,
+  .font_sub,
+  .subfont_sub {
+    display: flex;
+  }
+}
+
 .Btn {
   box-sizing: border-box;
   display: block;
