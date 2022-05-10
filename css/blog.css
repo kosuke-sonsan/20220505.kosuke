@@ -265,6 +265,65 @@ a {
   .header-nav {}
 }
 
+.group {
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10%;
+}
+
+.font-size {
+  text-align: center;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 20%;
+  margin-top: 5%;
+  color: white;
+  font-size: 2em;
+}
+
+.group_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 30%;
+  padding: 1%;
+}
+
+.img {
+  width: 100%;
+  margin: 1%;
+}
+
+.font_position {
+  box-sizing: border-box;
+  padding-left: 1%;
+  margin-top: 1%;
+}
+
+.blog_font {
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .group_2,
+  .box,
+  .img,
+  .blog_position,
+  .blog_font {
+    display: block;
+    width: 100%;
+  }
+}
+
 .group_6 {
   width: 100%;
   background: #DCDCDC;
