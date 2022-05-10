@@ -325,6 +325,7 @@ a {
 }
 
 .font_position {
+  width: 80%;
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 0.9em;
