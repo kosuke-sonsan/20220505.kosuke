@@ -311,6 +311,17 @@ a {
   margin-top: 4%;
 }
 
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .group_2,
+  .box,
+  .img,
+  .font_position,
+  .blog_font {
+    display: block;
+    width: 100%;
+  }
+}
+
 .group_6 {
   width: 100%;
   background: #DCDCDC;
@@ -555,4 +566,28 @@ a {
 
 .footer-nav-item7 a:visited {
   color: white;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .copyright {
+    padding-top: 15%;
+  }
+
+  .footer-nav,
+  .footer-nav-list {
+    position: static;
+    display: block;
+    text-align: left;
+    line-height: 200%;
+  }
+
+  .footer-nav-item1::after,
+  .footer-nav-item2::after,
+  .footer-nav-item3::after,
+  .footer-nav-item4::after,
+  .footer-nav-item5::after,
+  .footer-nav-item6::after,
+  .footer-nav-item7::after {
+    display: none;
+  }
 }
