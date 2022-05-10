@@ -13,8 +13,10 @@ a {
 }
 
 .logo {
-  width: 5%;
-  padding: 2%;
+  box-sizing: border-box;
+  width: 10%;
+  padding-top: 2%;
+  margin-left: 2%;
 }
 
 .logo:hover {
@@ -234,28 +236,29 @@ a {
   color: black;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .menu,
   .nav2,
   .manu__line--top,
   .menu__line--middle,
   .menu__line--bottom {
+    display: inline-block;
+  }
+  .header-nav {
     display: none;
   }
-  .header-nav {}
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 769px) {
   .menu,
   .nav2,
   .manu__line--top,
   .menu__line--middle,
   .menu__line--bottom,
   .header-nav2 {
-    display: inline-block;
+    display: none;
   }
   .header-nav {
-    display: none;
   }
 }
 
@@ -366,11 +369,10 @@ a {
 }
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
-  .group_3,
-  .box,
-  .img,
-  .font,
-  .subfont {
+  .blog_position,
+  .blog_box,
+  .daily,
+  .blog_font {
     display: block;
     width: 100%;
   }
@@ -507,6 +509,16 @@ a {
   justify-content: center;
   width: 30%;
   padding: 1%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .blog_position,
+  .blog_box,
+  .daily,
+  .blog_font {
+    display: block;
+    width: 100%;
+  }
 }
 
 .img_size {
